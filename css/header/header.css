@@ -1,0 +1,40 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-block: 6rem;
+}
+
+.header .logo {
+  width:  20rem;
+  justify-self: start;
+}
+
+.header .botao {
+  padding-inline: 3rem;
+  padding-block: .8rem;
+  justify-self: end;
+  border: .2rem solid #ff52bf;
+  border-radius: 2rem;
+  color: var(--pink);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
+  cursor: pointer;
+}
+
+.header .botao:hover {
+  border: .2rem solid #ff8fd8;
+  color: var(--lPink);
+}
+
+@media screen and (max-width: 500px) {
+  .header .logo {
+    width:  16rem;
+    justify-self: start;
+  }
+
+  .header .botao {
+    padding-inline: 1.5rem;
+    padding-block: .4rem;
+    font-size: 1.4rem;
+  }
+}

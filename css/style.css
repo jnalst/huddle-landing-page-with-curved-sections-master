@@ -1,0 +1,23 @@
+/* UTILIDADES */
+@import "./global/global.css";
+
+/* Header */
+@import "./header/header.css";
+
+/* INTRO */
+@import "./intro/intro.css";
+
+/* rating */
+@import "./rating/rating.css";
+
+/* infos */
+@import "./infos/infog.css";
+@import "./infos/infof.css";
+@import "./infos/infoy.css";
+
+/* call-action */
+@import "./call-action/callaction.css";
+
+/* Footer*/
+@import "./footer/footerch.css";
+@import "./footer/footer.css";

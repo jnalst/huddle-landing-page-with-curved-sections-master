@@ -1,0 +1,40 @@
+.callaction {
+  display: grid;
+  place-items: center;
+  padding-block: 10rem;
+}
+
+.callaction h4 {
+  font-size: 4.4rem;
+  font-family: "Poppins";
+  text-align: center;
+  color: var(--vDarkCyan);
+  padding-bottom: 4rem;
+}
+
+.callaction a {
+  padding-inline: 8rem;
+  padding-block: 2rem;
+  background-color: #ff52bf;
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  color: #fff;
+  border-radius: 4rem;
+  margin-bottom: 8rem;
+}
+
+.callaction a:hover{
+  background-color: #ff8fd8;
+}
+
+@media screen and (max-width: 500px) {
+  .callaction h4 {
+    font-size: 2.8rem;
+  }
+
+  .callaction a {
+    padding-inline: 4rem;
+    padding-block: 1.5rem;
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,63 @@
+:root {
+  /* 10 px = 1 rem */
+  font-size: 62.5%;
+
+  /* colorPrimary */
+  --pink: #ff52bf;
+  --lPink: #ff8fd8;
+  --lRed:#ff4242;
+
+  /* Accent */
+  --vDarkCyan: #00252e;
+  --vPaleBlue: #f5faff;
+}
+
+/* CSS RESET */
+
+html {
+  scroll-behavior: smooth;
+  transition: all .5s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+.container-action {
+  box-sizing: border-box;
+  max-width: 800px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+}

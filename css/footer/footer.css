@@ -1,0 +1,114 @@
+.footer-bg {
+  background: url("/images/bg-section-bottom-desktop-3.svg") no-repeat top;
+  background-color: var(--vDarkCyan);
+  padding-top: 23rem;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-contact picture img {
+  max-width: 20rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-contact p {
+  font-family: "open sans";
+  color: #fff;
+  max-width: 40ch;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.footer-contact address {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  gap: 1rem;
+}
+
+.footer-contact address a {
+  font-family: "open sans";
+  color: #fff;
+  font-size: 1.6rem;
+  padding-left: 3rem;
+}
+
+.footer-contact address a::before {
+  content: "";
+  position: relative;
+  background: url("/images/icon-phone.svg");
+  background-repeat: no-repeat;
+  width: 3rem;
+  left: 0rem;
+  top: 0rem;
+}
+
+.footer-contact .footer-redes {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-contact .footer-redes a {
+  cursor: pointer;
+}
+
+.footer-contact .footer-redes a img {
+  width: 3rem;
+}
+
+.footer-news h5 {
+  font-family: "Poppins";
+  font-size: 2.6rem;
+  color: #fff;
+}
+
+.footer-news p {
+  font-family: "open sans";
+  color: #fff;
+  max-width: 42ch;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.footer-news form {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-news form input {
+  width: 24rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+
+.footer-news form button {
+  padding-inline: 4rem;
+  padding-block: 1.2rem;
+  background-color: var(--pink);
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .footer-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-bg {
+    background: url("/images/bg-section-bottom-mobile-3.svg") no-repeat top;
+    background-color: var(--vDarkCyan);
+    padding-top: 23rem;
+  }
+}

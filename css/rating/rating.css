@@ -1,0 +1,32 @@
+.rating {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.rating picture img {
+  width: 3rem;
+}
+
+.rating h2 {
+  font-size: 6rem;
+  font-family: "Open Sans";
+  color: var(--vDarkCyan);
+}
+
+.rating p {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Open Sans";
+  color: var(--vDarkCyan);
+}
+
+@media screen and (max-width: 500px) {
+  .rating {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10rem;
+  }
+}
