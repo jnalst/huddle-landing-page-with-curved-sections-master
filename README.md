@@ -41,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/jnalst/huddle-landing-page-with-curved-sections-master))
+- Solution URL: [Add solution URL here](https://github.com/jnalst/huddle-landing-page-with-curved-sections-master)
 - Live Site URL: [Add live site URL here](huddle-lp-ch2.vercel.app)
 
 ## My process
@@ -98,8 +98,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here]([https://www.your-site.com](https://github.com/jnalst))
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jnalst)
+- Website - [jnalst]([https://www.your-site.com](https://github.com/jnalst))
+- Frontend Mentor - [@jnalst](https://www.frontendmentor.io/profile/jnalst)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
