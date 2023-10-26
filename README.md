@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/jnalst/huddle-landing-page-with-curved-sections-master)
-- Live Site URL: [Add live site URL here](huddle-lp-ch2.vercel.app)
+- Live Site URL: [Add live site URL here](https://huddle-lp-ch2.vercel.app/)
 
 ## My process
 
