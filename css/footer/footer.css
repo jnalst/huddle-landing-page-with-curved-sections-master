@@ -38,15 +38,39 @@
   padding-left: 3rem;
 }
 
-.footer-contact address a::before {
-  content: "";
+.footer-contact address .phone {
   position: relative;
-  background: url("/images/icon-phone.svg");
+}
+
+.footer-contact address .email {
+  position: relative;
+}
+
+.footer-contact address .phone::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-image: url("/images/icon-phone.svg");
   background-repeat: no-repeat;
   width: 3rem;
+  height: 3rem;
   left: 0rem;
-  top: 0rem;
+  top: .2rem;
 }
+
+.footer-contact address .email::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-image: url("/images/icon-email.svg");
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+  left: 0rem;
+  top: .4rem;
+}
+
+
 
 .footer-contact .footer-redes {
   display: flex;
@@ -110,5 +134,13 @@
     background: url("/images/bg-section-bottom-mobile-3.svg") no-repeat top;
     background-color: var(--vDarkCyan);
     padding-top: 23rem;
+  }
+
+  .footer-contact{
+    grid-area: 2 / -2;
+  }
+
+  .footer-main{
+    gap: 8rem;
   }
 }
